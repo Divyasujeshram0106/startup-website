@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Signature Treats Collection</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #faf5ef;
+      color: #3b2a20;
+    }
+
+    header {
+      background: linear-gradient(135deg, #d8b49c, #f2dfce);
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      font-style: italic;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    .section {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #8b4a2b;
+      font-size: 1.4rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.4rem 0;
+      border-bottom: 1px dashed #ddd;
+      font-size: 0.95rem;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    .price {
+      font-weight: 600;
+    }
+
+    .highlight {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .badge {
+      background: #f7e7d8;
+      border-radius: 14px;
+      padding: 1rem;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #3b2a20;
+      color: #fff;
+    }
+
+    footer p {
+      margin: 0.4rem 0;
+      font-size: 0.95rem;
+    }
+
+    .note {
+      margin-top: 1rem;
+      background: #fff6ec;
+      padding: 1rem;
+      border-radius: 12px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="./Logo.png" alt="Tiny Hands Atelier Logo" style="max-width:260px; margin-bottom:1rem;" />
+<h1 class="title">THE SIGNATURE TREATS COLLECTION ✨</h1>
+<p class="tagline">Little luxuries in every bite</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>🍪 Cookies & Biscuits</h2>
+    <ul>
+      <li><span>Choco Chip Cookies – 100 g</span><span class="price">₹140</span></li>
+      <li><span>Mini Vanilla Biscuits – 100 g</span><span class="price">₹70</span></li>
+      <li><span>Mini Choco Biscuits – 100 g</span><span class="price">₹80</span></li>
+      <li><span>Jam Biscuits – 100 g</span><span class="price">₹90</span></li>
+      <li><span>Oats Biscuit – 100 g</span><span class="price">₹140</span></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🌾 Healthy Millet Biscuits – 100 g ₹95</h2>
+    <ul>
+      <li><span>Thinai (Foxtail) Crunch</span></li>
+      <li><span>Varagu (Kodu) Crunch</span></li>
+      <li><span>Jowar Nutri Crisp</span></li>
+      <li><span>Pearl Millet Delight</span></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🥨 Nutty Sticks</h2>
+    <ul>
+      <li><span>Badam Pista Sticks – 250 g</span><span class="price">₹265</span></li>
+      <li><span>Pista Sticks – 250 g</span><span class="price">₹295</span></li>
+      <li><span>Cranberry Sticks – 250 g</span><span class="price">₹260</span></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🍫 Handcrafted Chocolates</h2>
+    <ul>
+      <li><span>Plain Milk / Dark Chocolate</span><span class="price">₹10</span></li>
+      <li><span>Fruit & Nut Chocolate</span><span class="price">₹15</span></li>
+      <li><span>Snickers Choco Balls</span><span class="price">₹15</span></li>
+      <li><span>Healthy Brownie Bite Chocolates</span><span class="price">₹50</span></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🥜 Healthy Treat</h2>
+    <ul>
+      <li><span>Dry Fruit Energy Sweet – 100 g</span><span class="price">₹100</span></li>
+    </ul>
+  </div>
+
+  <div class="note">
+    🌾 Most of our items are made from <strong>100% wheat flour</strong>.
+  </div>
+
+  <div class="highlight">
+    <div class="badge">✅ Fresh Batches</div>
+    <div class="badge">✅ Premium Ingredients</div>
+    <div class="badge">🎁 Perfect for Gifting & Snacking</div>
+    <div class="badge">📦 Bulk & Gift Orders Available</div>
+  </div>
+
+</div>
+
+<div class="section">
+    <h2>📲 Contact Us</h2>
+    <ul>
+      <li><span>Instagram</span><span class="price">@tiny_hands_atelier0210</span></li>
+    </ul>
+  </div>
+
+<footer>
+  <p>© Tiny Hands Atelier</p>
+  <p>For orders & enquiries, contact us on WhatsApp / Instagram</p>
+</footer>
+
+</body>
+</html>
